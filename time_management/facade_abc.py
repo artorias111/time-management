@@ -2,8 +2,7 @@ from abc import ABC
 
 
 class AbcFacade(ABC):
-    """Any interface will expect to be able to invoke the following methods.
-    """
+    """Any interface will expect to be able to invoke the following methods."""
 
     def count_rows(self):
         pass

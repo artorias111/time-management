@@ -98,7 +98,7 @@ class TasksFacade(facade_abc.AbcFacade):
         record = cursor.fetchall()
         is_complete = record[0][0]
 
-        if is_complete == 'true':
+        if is_complete == "true":
             return 0
         else:
             return 1

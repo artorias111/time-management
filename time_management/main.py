@@ -5,6 +5,7 @@ import os
 import getpass
 import ddl
 import sqlitedb
+import speech_cadence_emulator
 
 
 def main():
@@ -25,7 +26,7 @@ def on_startup():
     user = getpass.getuser()
     number_of_overdue_items = len(tasks_facade.get_overdue_tasks())
     welcome_statement = f"\nGood {time_of_day} {user}. You have {number_of_overdue_items} overdue items.\n"
-    print(welcome_statement)
+    speech_cadence_emulator.emulate_speech_cadence(welcome_statement)
 
     # Launch MODE interface
     mode = interface_mode.InterfaceMode(db_v1)
