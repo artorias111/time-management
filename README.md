@@ -22,10 +22,10 @@ Features include:
 Usage:
 
 1. Clone this repository locally on your machine
-2. Open the time_management directory in a terminal
+2. Open the time_management directory (/time-management/time_management) in a terminal
 3. run main.py
 
-Once opened, something like this should pop up:
+Once you run main.py, something like this should pop up:
 
                                           
     Good evening <user>. You have 1 overdue items.
@@ -43,5 +43,53 @@ Once opened, something like this should pop up:
     2: Analytics
     3: Maintenance
     4: Quit
+
+
+Here's some sample workflow examples to get an understanding of how this works:
+
+1. Make a note
+	- Select 1. Time management
+	- Select 1. Make a note
+	- Enter your note
+
+2. Set a task
+	- Select 1. Time management
+	- Select 2. Set a task
+	- Enter your task, and the number of days to complete
+	
+			0 to cancel
+		
+			Set a task: Finish eating ice cream
+			Set number of days to complete: 2
+
+
+3. Get all your notes or tasks
+	- Select 1. Time management
+	- Select 3. Print notes (select 4. Print Tasks if you want to print your tasks instead)
+	(you can similarly print only your overdue notes by selecting the next option)
+
+4. Delete your history
+	- Select 3. Maintainence 
+	- Select 1. Delete your history, and confirm (deletes all your notes and tasks)
+	
+			Are you sure you want to delete your history?
+			Submit 'y' to drop table
+			Submit 'n' to return to maintenance
+			y
+			
+			Deleting history...
+			
+			
+			_|      _|    _|_|    _|_|_|  _|      _|  _|_|_|_|_|
+			_|_|  _|_|  _|    _|    _|    _|_|    _|      _|
+			_|  _|  _|  _|_|_|_|    _|    _|  _|  _|      _|
+			_|      _|  _|    _|    _|    _|    _|_|      _|
+			_|      _|  _|    _|  _|_|_|  _|      _|      _|
+			
+			
+			
+			0: Return to MODE
+			1: Delete history
+			2: Quit
 
 
