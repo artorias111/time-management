@@ -13,13 +13,13 @@ Time Management (TM) helps you to keep track of your day-to-day life as a softwa
 4. Print the previous workday's activities for Scrum
 
 
-Features include:
+## Features include:
 
 1. Work history analytics
 2. Enhanced database maintenance
 3. User configuration
 
-Usage:
+## Usage:
 
 1. Clone this repository locally on your machine
 2. Open the time_management directory (/time-management/time_management) in a terminal
@@ -45,7 +45,7 @@ Once you run main.py, something like this should pop up:
     4: Quit
 
 
-Here's some sample workflow examples to get an understanding of how this works:
+## Here's some sample workflow examples to get an understanding of how this works:
 
 1. Make a note
 	- Select 1. Time management
